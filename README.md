@@ -41,6 +41,10 @@ You can also run it in the console with `CacheCheck.bat -NoGui`.
 - Windows 10 or 11 with the built-in Windows PowerShell 5.1
 - Network access to the resolver on UDP 53, TCP 443 and TCP 853
 
+## License
+
+Released under the [MIT License](LICENSE). Anyone may use and modify it, as long as the copyright notice is kept.
+
 ## Notes
 
 - The result is a timing-based estimate, not proof. A fast local network or a very close resolver can look similar to a cache.

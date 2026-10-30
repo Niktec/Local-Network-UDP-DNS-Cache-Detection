@@ -1,4 +1,7 @@
 @echo off
+rem Local Network UDP DNS Cache Detection
+rem Copyright (c) 2026 Niklas Tecklenborg
+rem Released under the MIT License, see LICENSE
 if /i "%~1"=="-NoGui" goto console
 start "" powershell -NoProfile -ExecutionPolicy Bypass -STA -WindowStyle Hidden -Command "$t=[IO.File]::ReadAllText('%~f0'); $i=$t.IndexOf('#PS-START'+'#'); & ([scriptblock]::Create($t.Substring($i))) %*"
 exit /b
